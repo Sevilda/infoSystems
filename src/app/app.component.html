@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="containter-fluid"></div>
+  <a class="navbar-brand" href="#">Main Page</a>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/moving">Move Tenants</a>
+      </li>
+      <li class="navbar-nav">
+        <a class="nav-link" routerLink="/payment">Register Payment</a>
+      </li>
+
+      <li class="navbar-nav">
+        <a class="nav-link" routerLink="/fee">Administer Fees</a>
+      </li>
+
+      <li class="navbar-nav">
+        <a class="nav-link" routerLink="/request-report">Generate a report</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container-fluid mt-2">
+  <router-outlet></router-outlet>
+</div>
